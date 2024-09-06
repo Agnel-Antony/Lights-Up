@@ -1,0 +1,84 @@
+body {
+    font-family: "Kanit", sans-serif;
+    margin: 0;
+    padding: 0;
+   background-image:url(https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+section.booking {
+    background: url('https://source.unsplash.com/1600x900/?event,background') no-repeat center center fixed;
+    background-size: cover;
+    padding: 100px 20px;
+    color:white;
+}
+
+section.booking .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section.booking h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.booking-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.booking-info .image {
+    flex: 1;
+    margin: 20px;
+}
+
+.booking-info .image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.booking-info .form {
+    flex: 1;
+    margin: 20px;
+    background: rgba(250, 234, 60, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.booking-info .form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.booking-info .form label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.booking-info .form input,
+.booking-info .form select,
+.booking-info .form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.booking-info .form button {
+    padding: 15px;
+    background: rgb(247, 229, 30);
+    border: none;
+    border-radius: 4px;
+    color:white;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.booking-info .form button:hover {
+    background: rgba(250, 234, 60, 0.5);
+}
