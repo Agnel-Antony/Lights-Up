@@ -2,10 +2,11 @@ body {
     font-family: "Kanit", sans-serif;
     margin: 0;
     padding: 0;
-   background-image:url(https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image:url(./book2.jpg);
 }
 
 section.booking {
+   
     background: url('https://source.unsplash.com/1600x900/?event,background') no-repeat center center fixed;
     background-size: cover;
     padding: 100px 20px;
@@ -44,7 +45,7 @@ section.booking h2 {
 .booking-info .form {
     flex: 1;
     margin: 20px;
-    background: rgba(250, 234, 60, 0.5);
+    background: rgba(187, 187, 185, 0.5);
     padding: 20px;
     border-radius: 8px;
 }
@@ -71,7 +72,7 @@ section.booking h2 {
 
 .booking-info .form button {
     padding: 15px;
-    background: rgb(247, 229, 30);
+    background: rgb(177, 176, 171);
     border: none;
     border-radius: 4px;
     color:white;
@@ -80,5 +81,5 @@ section.booking h2 {
 }
 
 .booking-info .form button:hover {
-    background: rgba(250, 234, 60, 0.5);
+    background: rgba(19, 19, 18, 0.5);
 }
